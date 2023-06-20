@@ -1,0 +1,309 @@
+/*Created with Adobe RoboHelp.*/
+body {
+  font-family: Calibri;
+  font-size: 14px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 19px;
+}
+h4 {
+  font-weight: bold;
+  font-size: 16px;
+}
+h5 {
+  font-weight: bold;
+  font-size: 13px;
+}
+h6 {
+  font-weight: bold;
+  font-size: 11px;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+a.expandspot {
+  color: #008000;
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: none;
+}
+span.expandtext {
+  font-style: italic;
+  font-weight: normal;
+  color: #ff0000;
+}
+a.dropspot {
+  cursor: pointer;
+  color: #008000;
+  font-style: italic;
+  text-decoration: none;
+}
+a.glossterm {
+  color: #800000;
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: none;
+}
+span.glosstext {
+  font-style: italic;
+  font-weight: normal;
+  color: #0000ff;
+}
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+a.minitoc-caption {
+  text-decoration: none;
+  color: initial;
+  font-weight: bold;
+}
+p.minitoc-caption {
+  font-weight: bold;
+  font-size: 16px;
+}
+ol.minitoc-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+ol.minitoc-list ol {
+  list-style: none;
+}
+a {}
+a.minitoc-list-item {}
+div.breadcrumbs {}
+span.breadcrumbs-home-prefix {}
+a.breadcrumbs-home {}
+.breadcrumbs-separator {}
+a.breadcrumbs-link {}
+a.breadcrumbs-topic {}
+p.seealso-caption {
+  font-weight: bold;
+  font-size: 16px;
+}
+ol.seealso-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+a.seealso-list-item {}
+p.reltopics-caption {
+  font-weight: bold;
+  font-size: 16px;
+}
+ol.reltopics-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+a.reltopics-list-item {}
+ul.Disc {
+  list-style-type: disc;
+}
+ul.Circle {
+  list-style-type: circle;
+}
+figure {
+  margin-left: 0 px;
+}
+ol.LowerAlpha {
+  list-style: lower-alpha;
+}
+ol.NestedNumbering {
+  counter-reset: item1;
+  list-style: none;
+  padding-left: 40px;
+  margin-left: 0px;
+}
+ol.NestedNumbering>li {
+  position: relative;
+}
+ol.NestedNumbering>li:before {
+  counter-increment: item1;
+  content: counter(item1, decimal)".";
+  text-align: right;
+  position: absolute;
+  left: -44px;
+  margin-right: 4px;
+  width: 40px;
+  overflow: hidden;
+}
+ol.NestedNumbering>li>ol {
+  list-style: none;
+  counter-reset: item2;
+  padding-left: 60.1px;
+  margin-left: -20.1px;
+}
+ol.NestedNumbering>li>ol>li:before {
+  counter-increment: item2;
+  content: counter(item1, decimal)"."counter(item2, decimal)".";
+  text-align: right;
+  position: absolute;
+  left: -64.1px;
+  margin-right: 4px;
+  width: 60.1px;
+  overflow: hidden;
+}
+ol.NestedNumbering>li>ol>li {
+  position: relative;
+}
+ol.NestedNumbering>li>ol>li>ol {
+  list-style: none;
+  counter-reset: item3;
+  padding-left: 90.1px;
+  margin-left: -50.1px;
+}
+ol.NestedNumbering>li>ol>li>ol>li:before {
+  counter-increment: item3;
+  content: counter(item1, decimal)"."counter(item2, decimal)"."counter(item3, decimal)".";
+  text-align: right;
+  position: absolute;
+  left: -94.1px;
+  margin-right: 4px;
+  width: 90.1px;
+  overflow: hidden;
+}
+ol.NestedNumbering>li>ol>li>ol>li {
+  position: relative;
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol {
+  counter-reset: item4;
+  list-style: none;
+  padding-left: 120.2px;
+  margin-left: -80.2px;
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li {
+  position: relative;
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item4;
+  content: counter(item1, decimal)"."counter(item2, decimal)"."counter(item3, decimal)"."counter(item4, decimal)".";
+  text-align: right;
+  position: absolute;
+  left: -124.2px;
+  margin-right: 4px;
+  width: 120.2px;
+  overflow: hidden;
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li>ol {
+  counter-reset: item5;
+  list-style: none;
+  padding-left: 150.2px;
+  margin-left: -110.2px;
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li>ol>li {
+  position: relative;
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item5;
+  content: counter(item1, decimal)"."counter(item2, decimal)"."counter(item3, decimal)"."counter(item4, decimal)"."counter(item5, decimal)".";
+  text-align: right;
+  position: absolute;
+  left: -154.2px;
+  margin-right: 4px;
+  width: 150.2px;
+  overflow: hidden;
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li>ol>li>ol {
+  counter-reset: item6;
+  list-style: none;
+  padding-left: 180.3px;
+  margin-left: -140.3px;
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li>ol>li>ol>li {
+  position: relative;
+}
+ol.NestedNumbering>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item6;
+  content: counter(item1, decimal)"."counter(item2, decimal)"."counter(item3, decimal)"."counter(item4, decimal)"."counter(item5, decimal)"."counter(item6, decimal)".";
+  text-align: right;
+  position: absolute;
+  left: -184.3px;
+  margin-right: 4px;
+  width: 180.3px;
+  overflow: hidden;
+}
+ol.AlphaNumeric {
+  list-style: decimal;
+}
+ol.AlphaNumeric>li>ol {
+  list-style: lower-alpha;
+}
+ol.AlphaNumeric>li>ol>li>ol {
+  list-style: lower-roman;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol {
+  counter-reset: item4;
+  list-style: none;
+  padding-left: 40px;
+  margin-left: 0px;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li {
+  position: relative;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item4;
+  content: "("counter(item4, decimal)")";
+  text-align: right;
+  position: absolute;
+  left: -44px;
+  margin-right: 4px;
+  width: 40px;
+  overflow: hidden;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol {
+  list-style: none;
+  counter-reset: item5;
+  padding-left: 40px;
+  margin-left: 0px;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item5;
+  content: "("counter(item5, lower-alpha)")";
+  text-align: right;
+  position: absolute;
+  left: -44px;
+  margin-right: 4px;
+  width: 40px;
+  overflow: hidden;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol>li {
+  position: relative;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol>li>ol {
+  list-style: none;
+  counter-reset: item6;
+  padding-left: 40px;
+  margin-left: 0px;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item6;
+  content: "("counter(item6, lower-roman)")";
+  text-align: right;
+  position: absolute;
+  left: -44px;
+  margin-right: 4px;
+  width: 40px;
+  overflow: hidden;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol>li>ol>li {
+  position: relative;
+}
+ol.Decimal {
+  list-style: decimal;
+}

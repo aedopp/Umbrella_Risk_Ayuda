@@ -1,0 +1,1 @@
+rh._.exports({"0":[[" ","Introducción"]],"2":[[" ","Introducción"]],"3":[[" ","Acerca de"," ","Objetivos de la Guía de usuario"," ","Requisitos del sistema"," ","Instalación y configuración inicial"," ","Novedades de la última versión"," ","© 2023 ","Umbrella ","Risk"]],"id":"12"})
