@@ -7,7 +7,7 @@ rh._.exports(defaultTopic);
 rh.consts('DEFAULT_TOPIC', encodeURI("Bienvenidos.htm"));
 rh.consts('HOME_FILEPATH', encodeURI('index.htm'));
 rh.consts('START_FILEPATH', encodeURI('index.htm'));
-rh.consts('HELP_ID', 'c8def365-fce9-4881-a3b9-0e4b8d241ebd' || 'preview');
+rh.consts('HELP_ID', '79d0af5b-3344-4f20-8f0c-6d3aae8e305e' || 'preview');
 rh.consts('LNG_SUBSTR_SEARCH', 0);
 
 model.publish(rh.consts('KEY_LNG_NAME'), "es");
@@ -17,7 +17,7 @@ model.publish(rh.consts('KEY_LNG'), {"Contents":"Contenido","Index":"Índice","S
 model.publish(rh.consts('KEY_HEADER_TITLE'), "Umbrella Risk - Ayuda");
 model.publish(rh.consts('PDF_FILE_NAME'), "");
 model.publish(rh.consts('MAX_SEARCH_RESULTS'), "20");
-model.publish(rh.consts('KEY_SKIN_FOLDER_NAME'), "single_page");
+model.publish(rh.consts('KEY_SKIN_FOLDER_NAME'), "Charcoal_Grey");
 model.publish(rh.consts('CHAT_API_SESSION_TOKEN'), "");
 model.publish(rh.consts('CHAT_API_PROJ_ID'), "");
 

@@ -87,5 +87,11 @@
       </filename>
     </filenameentry>
         
+    <filenameentry moniker="favicon">
+      <filename>
+        C:/Users/ProBook/Desktop/01 Proyecto - Ayuda - RoboHelp/contents/assets/images/UmbrellaRisk.ico
+      </filename>
+    </filenameentry>
+    
   </filenamemap>
 </ppfml>
